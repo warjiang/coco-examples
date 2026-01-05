@@ -1,0 +1,11 @@
+[project]
+name = "coco-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "qdrant-client>=1.16.2",
+    "volcengine-python-sdk[ark]>=5.0.3",
+]
